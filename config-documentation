@@ -1,0 +1,21 @@
+1. I named all the devices in the infrastructure according to their role in the network. 
+  - The router is named Coffeeshop-Rtr and will provide access to the internet for the end devices. 
+  - The Switch is Coffeeshop siwtch and will transfer data between devices. 
+  - A PC and Printer are name were given MNGM names because they will be used be used to perform admin roles and have access to private data.
+  - A PC and Printer were given the name POS becuase they will be handling and store customer confidential data. 
+  - An Acces Point is named Coffeeshop-Ap because it will be providing wireless access to customers on a public guest network that is seperate from the private network. 
+
+2. I connected all devices in the network using PoE cabling.
+  - Router connected to ISP
+  - Router Connedted to Switch
+  - Switch connected MNGM-PC
+  - Switch connected to MNGM-Printer
+  - Switch connected to POS-Register
+  - Switch connected to POS-Printer
+  - Switch connected to Wireless-AP
+
+3. Configuring the switch
+  1. I gave the switch a hostname 
+  2. Configure secret passcode
+  3. Enabled password encryption
+  4. 
