@@ -18,4 +18,13 @@
   1. I gave the switch a hostname 
   2. Configure secret passcode
   3. Enabled password encryption
-  4. 
+  4. Configured a "Message of the Day" banner
+  5. Seperated the domain into multiple networks using vlan
+    - VLAN 10: MANAGEMENT_OFFICE
+    - VLAN 20: POS
+    - VLAN 30: GUEST_WIFI
+    - VLAN 99: NETWORK_MANAGEMENT ( Used ofr managing network devices)
+  6. Congifure access mode on end devices and enable portfast
+  7. Configure a trunk port for the router
+
+
